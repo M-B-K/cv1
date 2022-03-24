@@ -133,6 +133,17 @@ ul li{
   margin-top: 6px;
   margin-left: 6px;
 }
+.contact-me .website span{
+    width: 12px;
+    height: 12px;
+    border-radius: 50%;
+    border: 1px solid #fff;
+    margin: 8px 0px 10px 10px;
+}
+
+.contact-me .mobile{
+    display: none;
+}
 
 .skills div{
     display: flex;
@@ -225,6 +236,13 @@ ul li{
     }
     .more div::before{
         border: 1px solid #000;
+    }
+
+    .contact-me img{
+        display: none;
+    }
+    .contact-me .mobile{
+        display: inline;
     }
 }
 
